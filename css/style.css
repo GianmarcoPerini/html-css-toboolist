@@ -52,12 +52,12 @@ main{
 
 .button-box{
     padding: 20px 40px;
-    border-bottom: 1px solid  rgb(243, 243, 243);
+    border-bottom: 1px solid  rgb(192, 192, 192);
 }
 
 .button{
-    border: 1px solid  rgb(243, 243, 243);
-    color:  rgb(223, 223, 223);
+    border: 1px solid  rgb(192, 192, 192);
+    color:  rgb(192, 192, 192);
     padding: 10px 15px;
     display: inline-block;
     border-radius: 6px;
@@ -67,7 +67,8 @@ main{
 .color{
     background-color: rgb(55, 158, 255);
     color: white;
-    border: none;
+    border: 1px solid rgb(55, 158, 255);
+    cursor: pointer
 }
 
 /* ====================
@@ -78,9 +79,7 @@ main{
     TESTI
 ==================== */
 
-.testi p, .specs{
-    display: inline-block;
-}
+
 
 nav{
     margin: 20px 50px;
@@ -92,6 +91,11 @@ ul{
 
 li{
     margin: 25px;
+    padding-left: 20px;
+}
+
+.testi p, .specs{
+    display: inline-block;
 }
 
 .testi .cross{
