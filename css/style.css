@@ -68,7 +68,6 @@ main{
     background-color: rgb(55, 158, 255);
     color: white;
     border: 1px solid rgb(55, 158, 255);
-    cursor: pointer
 }
 
 /* ====================
@@ -94,8 +93,14 @@ li{
     padding-left: 20px;
 }
 
-.testi p, .specs{
+.title-ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+.testi p, .specs, .testi span{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .testi .cross{
@@ -105,10 +110,14 @@ li{
 
 .testi span{
     border: 1.5px solid rgb(0, 223, 0);
-    padding:2px 4px;
+    padding: 0px 4px;
     border-radius: 100%;
     color: rgb(0, 223, 0);
     font-weight: bold;
+    margin-right: 15px;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
 }
 
 .specs{
@@ -118,6 +127,8 @@ li{
     color: white;
     font-weight: bold;
     font-size: .7em;
+    margin-left: 10px;
+
 }
 
 /* ====================
@@ -155,3 +166,10 @@ li{
 /* ====================
     COLORI
 ==================== */
+
+
+.ciao{
+    width: 100px;
+    height: 100px;
+    background-color: red
+}
