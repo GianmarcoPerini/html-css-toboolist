@@ -15,32 +15,45 @@ body{
 
 header{
     background-color: white;
-    height: 80px;
 }
 
-main{
-    height: 800px;
+.container{
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+    padding-bottom: 60px;
 }
+
+/* ====================
+    HEADER
+==================== */
 
 .title{
-    display: flex;
-    align-items: center;
     height: 100%;
     margin-left: 30px;
+    
+}
+
+.logo{
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.logo img{
+    vertical-align: middle;
 }
 
 .title p{
     font-weight: bold;
     font-size: 2em;
     margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
-.container{
-    width: 80%;
-    height: 100%;
-    background-color: white;
-    margin: 50px auto;
-}
+/* ====================
+    HEADER
+==================== */
 
 /* ====================
     RULES
@@ -78,8 +91,6 @@ main{
     TESTI
 ==================== */
 
-
-
 nav{
     margin: 20px 50px;
 }
@@ -110,12 +121,11 @@ li{
 
 .testi span{
     border: 1.5px solid rgb(0, 223, 0);
-    padding: 0px 4px;
+    padding:0px 4px;
     border-radius: 100%;
     color: rgb(0, 223, 0);
     font-weight: bold;
     margin-right: 15px;
-    vertical-align: middle;
     width: 25px;
     height: 25px;
 }
@@ -166,10 +176,3 @@ li{
 /* ====================
     COLORI
 ==================== */
-
-
-.ciao{
-    width: 100px;
-    height: 100px;
-    background-color: red
-}
